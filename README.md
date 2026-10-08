@@ -1,3 +1,11 @@
+<!-- 徽章 -->
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![CI](https://github.com/chanxaviersy/ecommerce-analytics-dashboard/actions/workflows/test.yml/badge.svg)](https://github.com/chanxaviersy/ecommerce-analytics-dashboard/actions)
+[![Last Commit](https://img.shields.io/github/last-commit/chanxaviersy/ecommerce-analytics-dashboard)](https://github.com/chanxaviersy/ecommerce-analytics-dashboard)
+
+---
+
 # 电商销售分析与交互式仪表板
 
 > 端到端数据处理管道 + 交互式业务指标仪表板

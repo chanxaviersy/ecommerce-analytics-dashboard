@@ -1,0 +1,23 @@
+[project]
+name = "ecommerce-analytics-dashboard"
+version = "0.1.0"
+description = "基于 Streamlit + Plotly + SQLite 的电商数据分析仪表板，含 CLV/RFM/漏斗分析"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Xavier Chen", email = "chanxaviersy@gmail.com"},
+]
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"
+
+[tool.flake8]
+max-line-length = 120
+exclude = [".git", "__pycache__", "build", "dist", "data", "models", "outputs"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
