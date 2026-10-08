@@ -1,0 +1,7 @@
+# 电商分析仪表板 - 依赖列表
+pandas>=2.0.0
+numpy>=1.24.0
+streamlit>=1.30.0
+plotly>=5.18.0
+sqlite3  # 标准库自带
+scikit-learn>=1.3.0
